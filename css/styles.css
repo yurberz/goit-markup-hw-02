@@ -57,8 +57,16 @@ a {
   color: var(--accent-color);
 }
 
+.site-nav .studio-page.current {
+  color: var(--accent-color);
+}
+
 .portfolio-page:hover,
 .portfolio-page:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .portfolio-page.current {
   color: var(--accent-color);
 }
 
