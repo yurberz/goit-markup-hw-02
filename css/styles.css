@@ -63,10 +63,12 @@ li {
 
   color: #757575;
 }
-.email:hover {
+.email:hover,
+.email:focus {
   color: #2196f3;
 }
-.phone:hover {
+.phone:hover,
+.phone:focus {
   color: #2196f3;
 }
 
