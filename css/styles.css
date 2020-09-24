@@ -1,0 +1,185 @@
+body {
+  background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
+
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Шапка страницы */
+.page-header {
+  background-color: #ffffff;
+}
+
+/* Логотип */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #000000;
+}
+.logo-custom {
+  color: #2196f3;
+}
+
+/* Навигация сайта */
+.site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.studio-page:hover,
+.studio-page:focus {
+  color: #2196f3;
+}
+.portfolio-page:hover,
+.portfolio-page:focus {
+  color: #2196f3;
+}
+.contacts-page:hover,
+.contacts-page:focus {
+  color: #2196f3;
+}
+
+/* Контакты шапки */
+.header-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.email:hover {
+  color: #2196f3;
+}
+.phone:hover {
+  color: #2196f3;
+}
+
+/* Секция-герой */
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-section h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero-section a {
+  background-color: #2196f3;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+/* Секция Особенности */
+.features-section h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.features-section p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #757575;
+}
+
+/*  Секция Чем мы занимаемся */
+.ourwork-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #212121;
+}
+
+/* Секция Наша команда */
+.ourteam-section {
+  background-color: #f5f4fa;
+}
+.ourteam-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #212121;
+}
+.ourteam-section h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #212121;
+}
+.ourteam-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #757575;
+}
+
+/*  Подвал страницы */
+.footer {
+  background-color: #2f303a;
+}
+
+/* Подвал страницы логотип */
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+
+/* Подвал страницы адрес */
+.adress-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px1.71;
+
+  color: #ffffff;
+}
+.adress-footer a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}

@@ -4,40 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- шапка-страницы -->
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="">Web Studio</a>
+        <a href="./index.html" class="logo"
+          ><span class="logo-custom">Web</span>Studio</a
+        >
 
         <!-- навигация-сайта -->
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="studio-page">Студия</a></li>
+          <li>
+            <a href="./portfolio.html" class="portfolio-page">Портфолио</a>
+          </li>
+          <li><a href="" class="contacts-page">Контакты</a></li>
         </ul>
       </nav>
 
       <!-- телефон-електроннаяпочта -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <ul class="header-contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="email"
+            >info@devstudio.com</a
+          >
+        </li>
 
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
       <!-- секция-герой -->
-      <section>
+      <section class="hero-section">
         <h1>Эффективные решения для вашего бизнеса</h1>
 
         <a href="">Заказать услугу</a>
       </section>
 
       <!-- секция-особенности -->
-      <section>
+      <section class="features-section">
         <h2>Особенности</h2>
 
         <ul>
@@ -80,7 +92,7 @@
       </section>
 
       <!-- секция-чем-мы-занимаемся -->
-      <section>
+      <section class="ourwork-section">
         <h2>Чем мы занимаемся</h2>
 
         <ul>
@@ -93,7 +105,7 @@
       </section>
 
       <!-- секция-наша-команда -->
-      <section>
+      <section class="ourteam-section">
         <h2>Наша команда</h2>
 
         <ul>
@@ -133,10 +145,10 @@
     </main>
 
     <!-- подвал-страницы -->
-    <footer>
-      <p>Web Studio</p>
+    <footer class="footer">
+      <p class="logo-footer"><span class="logo-custom">Web</span>Studio</p>
 
-      <address>
+      <address class="adress-footer">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
 
         <a href="mailto:info@example.com">info@example.com</a>
