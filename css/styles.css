@@ -2,13 +2,16 @@
 /* Вторичный цвет текста #757575; */
 /* Белый #FFFFFF; */
 /* Цвет акцента #2196F3; */
-/* Вторичный цвет фона #2F303A; */
+/* Вторичный цвет фона #2f303a; */
+/* Вторичный цвет фона страницы Портфолио #f5f4fa; */
 
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --portfolio-secondary-bg-color: #f5f4fa;
 }
 
 body {
@@ -25,6 +28,8 @@ a {
 .list {
   list-style: none;
 }
+
+/* Стили страницы Студия */
 
 /* Шапка страницы */
 
@@ -97,7 +102,7 @@ a {
 
 /* Секция-герой */
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--secondary-background-color);
 }
 
 .hero-section h1 {
@@ -183,7 +188,7 @@ a {
 
 /*  Подвал страницы */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-background-color);
 }
 
 /* Подвал страницы логотип */
@@ -212,4 +217,38 @@ a {
   line-height: 1.71;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Стили страницы Портфолио */
+
+.filter-button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: #212121;
+}
+
+.filter-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.works h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.works p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: #757575;
 }
